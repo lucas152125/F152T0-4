@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 20px; /* Espaciado interno */
+  background: linear-gradient(to right, #6163c5, #4b99c5);
+  font-family: Arial, sans-serif;
+  color: rgb(150, 138, 138);
+}
+
+/* Contenedor general */
+.contenido {
+  max-width: 800px;
+  margin: 0 auto; /* Centrado horizontal */
+  background-color: rgba(255, 255, 255, 0.1); /* Fondo semitransparente opcional */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Título */
+.contenido h1 {
+  text-align: left;
+  color: #fff;
+}
+
+/* Párrafos o contenido */
+.contenido p {
+  text-align: justify;
+  line-height: 1.6;
+}

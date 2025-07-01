@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #a9c4df;
+  padding: 20px;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 30px;
+}
+
+/* Estilos base para todos los párrafos */
+p {
+  background-color: #ffffff;
+  padding: 10px;
+  border-left: 6px solid #3498db;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Cada clase aplica una medida distinta */
+.px {
+  width: 200px;
+}
+
+.em {
+  width: 20em;
+}
+
+.rem {
+  width: 20rem;
+}
+
+.porcentaje {
+  width: 50%;
+}
+
+.vw {
+  width: 30vw;
+}
+
+.vh {
+  height: 20vh;
+  background-color: #e3f2fd;
+}
+
+.cm {
+  width: 5cm;
+}
+
+.mm {
+  width: 50mm;
+}
+
+.in {
+  width: 2in;
+}
+
+.pt {
+  font-size: 18pt;
+}
+
+.pc {
+  font-size: 2pc;
+}

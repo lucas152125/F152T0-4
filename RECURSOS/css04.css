@@ -1,0 +1,43 @@
+/* Estilo general para los divs */
+div {
+  border: 2px solid #2c3e50;
+  padding: 20px;
+  margin: 15px;
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  font-size: 16px;
+}
+
+/* Posición estática */
+.estatica {
+  background-color: #2761ae; /* verde esmeralda */
+  position: static;
+}
+
+/* Posición relativa */
+.relativa {
+  background-color: #b9297d; /* azul medio */
+  position: relative;
+  top: 10px;
+}
+
+/* Posición absoluta */
+.absoluto {
+  background-color: #3ce783; /* rojo coral */
+  position: absolute;
+  top: 200px;
+  left: 20px;
+  width: 250px;
+}
+
+/* Posición fija */
+.fijo {
+  background-color: #7cad44; /* púrpura intenso */
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 220px;
+  z-index: 10;
+}
